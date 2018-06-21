@@ -1,0 +1,56 @@
+*{
+  box-sizing:border-box;
+  background-color:lightgray;
+}
+
+body{
+  
+  margin:0;
+  text-align:center;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.spacing{
+  
+  margin-top:50px;
+}
+
+
+footer{
+  width:100%;
+  margin-top:10px;
+}
+
+/*======================
+ -----C-L-A-S-S-E-S-----
+=======================*/
+
+
+
+/*-- Text Customization--*/
+.image{
+  width:100%;
+}
+
+/*-- Footer Customization--*/
+.footerlist{
+  display:inline-block;
+  width:23%;
+  float:left;
+}
+.footerimages{
+  width:50px;
+}
+
+.bio{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  text-align: justify;
+  margin-top:20px;
+  text-indent: 25px;
+}
+
+.lhs{
+  margin-top:70px;
+}
