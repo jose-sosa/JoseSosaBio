@@ -1,6 +1,6 @@
 *{
   box-sizing:border-box;
-  background-color:lightgray;
+  
 }
 
 body{
@@ -11,15 +11,12 @@ body{
   flex-wrap:wrap;
 }
 
+
+
 .spacing{
-  
+  background-color:lightgray;
   margin-top:50px;
-}
-
-
-footer{
-  width:100%;
-  margin-top:10px;
+  padding-bottom:20px;
 }
 
 /*======================
@@ -27,17 +24,21 @@ footer{
 =======================*/
 
 
-
-/*-- Text Customization--*/
 .image{
   width:100%;
 }
 
-/*-- Footer Customization--*/
+.desc{
+  color:orange;
+  font-style: italic;
+}
+
+
 .footerlist{
   display:inline-block;
   width:23%;
   float:left;
+  margin-top:25px;
 }
 .footerimages{
   width:50px;
@@ -52,5 +53,10 @@ footer{
 }
 
 .lhs{
-  margin-top:70px;
+  margin-top:20px;
+}
+
+.email{
+  margin-top:50px;
+  color:black;
 }
